@@ -1,0 +1,14 @@
+<svg viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-text { 
+        font-family: 'Courier New', monospace; 
+        font-weight: 800; 
+        font-size: 20px; 
+        letter-spacing: 2px;
+        fill: currentColor;
+      }
+    </style>
+  </defs>
+  <text x="30" y="21" text-anchor="middle" class="logo-text">LG</text>
+</svg>

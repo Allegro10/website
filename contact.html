@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact - Lee Groenewegen</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Get in touch with Lee Groenewegen for your Shopify and e-commerce development needs. Professional web development services and consultation available.">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link href="main.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+
+    <section class="hero hero--page">
+        <div class="wrapper">
+            <header class="main-header">
+                <a class="main-header__logo" href="index.html" aria-label="Lee Groenewegen - Home">LG</a>
+                <nav class="main-header__nav hidden-sm hidden-xs" role="navigation" aria-label="Main navigation">
+                    <a class="main-nav__link" href="about.html">About</a>
+                    <a class="main-nav__link" href="cv.html">CV</a>
+                    <a class="main-nav__link" href="contact.html" aria-current="page">Contact</a>
+                </nav>
+                <button class="mobile-menu-toggle visible-sm visible-xs" aria-label="Open navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+            <nav class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+                <button class="mobile-menu-close" aria-label="Close navigation menu">×</button>
+                <a class="mobile-nav__link" href="index.html">Home</a>
+                <a class="mobile-nav__link" href="about.html">About</a>
+                <a class="mobile-nav__link" href="cv.html">CV</a>
+                <a class="mobile-nav__link" href="contact.html" aria-current="page">Contact</a>
+            </nav>
+        </div>
+        <div class="page-cta wrapper">
+            <h1 class="page-cta__header">Contact</h1>
+            <h2 class="page-cta__subheader">Let's build something great together</h2>
+        </div>
+    </section>
+
+    <main id="main-content">
+        <section class="contact-section">
+            <div class="wrapper">
+                <div class="contact-container">
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h2>Get In Touch</h2>
+                        <p>Ready to start your next Shopify project or web development? I'd love to hear about your ideas and discuss how we can bring them to life.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@leegroenewegen.co.uk">info@leegroenewegen.co.uk</a></p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h4>LinkedIn</h4>
+                                <p><a href="https://www.linkedin.com/in/lee-groenewegen-9846a814a/" target="_blank">Connect with me</a></p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h4>Certifications</h4>
+                                <p style="margin-top: 16px;"><a href="https://www.credly.com/users/lee-groenewegen/badges#credly" target="_blank">View my verified badges</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <nav class="site-footer__bottom">
+                <p class="site-footer__copyright">© 2025 Lee Groenewegen. All Rights Reserved.</p>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const mobileClose = document.querySelector('.mobile-menu-close');
+            
+            function openMenu() {
+                mobileToggle.classList.add('active');
+                mobileMenu.classList.add('active');
+                document.body.classList.add('menu-open');
+            }
+            
+            function closeMenu() {
+                mobileToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                document.body.classList.remove('menu-open');
+            }
+            
+            mobileToggle.addEventListener('click', function() {
+                if (mobileMenu.classList.contains('active')) {
+                    closeMenu();
+                } else {
+                    openMenu();
+                }
+            });
+            
+            // Close menu when clicking close button
+            if (mobileClose) {
+                mobileClose.addEventListener('click', closeMenu);
+            }
+            
+            // Close menu when clicking on a link
+            const mobileLinks = document.querySelectorAll('.mobile-nav__link');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', closeMenu);
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (mobileMenu.classList.contains('active') && 
+                    !mobileMenu.contains(e.target) && 
+                    !mobileToggle.contains(e.target)) {
+                    closeMenu();
+                }
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
