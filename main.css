@@ -115,6 +115,13 @@ body {
   background-size: cover;
 }
 
+/* WebP support for better performance */
+@supports (background-image: url(test.webp)) {
+  .hero--home {
+    background-image: linear-gradient(rgba(0, 35, 90, 0.95), rgba(0, 35, 90, 0.75)), url(assets/home-hero.webp);
+  }
+}
+
 .hero--page {
   background: rgba(0, 35, 90, 0.95);
   background-position: center;
@@ -245,7 +252,7 @@ body {
   --border-accent: #f0c2d0;
   
   /* Link Colors */
-  --link-primary: #4eaff6;
+  --link-primary: #3378aa;
   --link-hover: #1d99f4;
   
   /* Spacing */
@@ -766,6 +773,13 @@ Mobile
   background: linear-gradient(rgba(0, 35, 90, 0.95), rgba(0, 35, 90, 0.75)), url(assets/home-hero.jpg) no-repeat;
   background-position: center;
   background-size: cover; }
+
+/* WebP support for better performance */
+@supports (background-image: url(test.webp)) {
+  .hero--home {
+    background-image: linear-gradient(rgba(0, 35, 90, 0.95), rgba(0, 35, 90, 0.75)), url(assets/home-hero.webp);
+  }
+}
 
 .home-cta {
   padding: 230px 0 180px;
