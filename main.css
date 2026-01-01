@@ -1146,9 +1146,8 @@ body.menu-open::before {
     display: flex !important;
   }
   
-  /* Both mobile and desktop navigation accessible */
   .main-header__nav {
-    display: flex !important;
+    display: none !important;
   }
 }
 
