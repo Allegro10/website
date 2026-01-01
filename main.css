@@ -1094,13 +1094,13 @@ body.menu-open::before {
     line-height: 1.4;
   }
   
-  /* Both desktop nav and mobile toggle visible for accessibility */
+  /* Hide desktop nav and show mobile toggle on tablets and mobile */
   .mobile-menu-toggle {
     display: flex;
   }
   
   .main-header__nav {
-    display: flex !important;
+    display: none !important;
   }
   
   .visible-sm {
