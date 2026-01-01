@@ -440,7 +440,7 @@ Paragraphs
 */
 p {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5em;
   color: var(--text-secondary); }
   p:first-of-type {
@@ -1085,13 +1085,13 @@ body.menu-open::before {
   }
   
   .home-cta__header,
-  .page-cta__header {
-    font-size: 28px;
+  .page-cta .page-cta__header {
+    font-size: 32px !important;
     line-height: 1.2;
   }
   
   .home-cta__subheader,
-  .page-cta__subheader {
+  .page-cta .page-cta__subheader {
     font-size: var(--font-size-base);
     line-height: 1.4;
   }
