@@ -2,7 +2,49 @@
 <html lang="en">
 
 <head>
-    <title>Shopify Plus Solutions Architecture - Lee Groenewegen</title>
+    <titl    <main id="main-content">
+        <section class="cv-content">
+            <div class="wrapper">
+                <div class="cv-grid">
+                    <div class="cv-sidebar">
+                        <div class="cv-section">
+                            <h3>Focus Areas</h3>
+                            <div class="skills-compact">
+                                <div class="skill-tag">Solutions Architecture</div>
+                                <div class="skill-tag">Multi-Market Stores</div>
+                                <div class="skill-tag">CI/CD Pipelines</div>
+                                <div class="skill-tag">Content Team Workflows</div>
+                                <div class="skill-tag">Deployment Strategy</div>
+                                <div class="skill-tag">MENA Markets</div>
+                                <div class="skill-tag">Payment Integration</div>
+                                <div class="skill-tag">Version Control</div>
+                                <div class="skill-tag">Enterprise Scale</div>
+                            </div>
+                        </div>
+                        
+                        <div class="cv-section">
+                            <h3>Engagement Types</h3>
+                            <ul class="experience-list">
+                                <li>Architecture Audit</li>
+                                <li>Strategic Advisory</li>
+                                <li>Technical Leadership</li>
+                                <li>Implementation</li>
+                                <li>Team Training</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-section">
+                            <h3>Markets Expertise</h3>
+                            <ul class="experience-list">
+                                <li>Middle East</li>
+                                <li>North Africa</li>
+                                <li>UK/EU to MENA</li>
+                                <li>Cross-border</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="cv-main">pify Plus Solutions Architecture - Lee Groenewegen</title>
     <meta charset="utf-8">
     <meta name="description" content="Expert Shopify Plus solutions architect specializing in multi-market store management, large content team workflows, and enterprise deployment strategies for MENA markets.">
     <meta content="width=device-width,initial-scale=1" name="viewport">
@@ -220,44 +262,56 @@
         </section>
     </main>
 
-    <footer class="main-footer">
+    <footer class="site-footer">
         <div class="wrapper">
-            <p>&copy; 2026 Lee Groenewegen. All rights reserved.</p>
+            <nav class="site-footer__bottom">
+                <p class="site-footer__copyright">© 2026 Lee Groenewegen. All Rights Reserved.</p>
+            </nav>
         </div>
     </footer>
 
     <script>
         // Mobile menu functionality
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const mobileMenu = document.querySelector('.mobile-menu');
-        const mobileMenuClose = document.querySelector('.mobile-menu-close');
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const mobileClose = document.querySelector('.mobile-menu-close');
 
-        if (mobileMenuToggle) {
-            mobileMenuToggle.addEventListener('click', function() {
-                mobileMenu.classList.add('is-active');
+            function openMenu() {
+                mobileMenu.classList.add('active');
                 document.body.style.overflow = 'hidden';
-                this.setAttribute('aria-expanded', 'true');
-            });
-        }
+                mobileToggle.setAttribute('aria-expanded', 'true');
+            }
 
-        if (mobileMenuClose) {
-            mobileMenuClose.addEventListener('click', function() {
-                mobileMenu.classList.remove('is-active');
+            function closeMenu() {
+                mobileMenu.classList.remove('active');
                 document.body.style.overflow = '';
-                mobileMenuToggle.setAttribute('aria-expanded', 'false');
-            });
-        }
+                mobileToggle.setAttribute('aria-expanded', 'false');
+            }
 
-        // Close menu when clicking outside
-        if (mobileMenu) {
-            mobileMenu.addEventListener('click', function(e) {
-                if (e.target === this) {
-                    this.classList.remove('is-active');
-                    document.body.style.overflow = '';
-                    mobileMenuToggle.setAttribute('aria-expanded', 'false');
+            if (mobileToggle) {
+                mobileToggle.addEventListener('click', openMenu);
+            }
+
+            if (mobileClose) {
+                mobileClose.addEventListener('click', closeMenu);
+            }
+
+            // Close menu when clicking on a link
+            const mobileLinks = document.querySelectorAll('.mobile-nav__link');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', closeMenu);
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (mobileMenu.classList.contains('active') && 
+                    !mobileMenu.contains(e.target) && 
+                    !mobileToggle.contains(e.target)) {
+                    closeMenu();
                 }
             });
-        }
+        });
     </script>
 </body>
 </html>
