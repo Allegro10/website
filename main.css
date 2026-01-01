@@ -68,6 +68,8 @@ body {
   border-radius: var(--radius-sm);
   font-family: 'Courier New', monospace;
   letter-spacing: 1px;
+  min-width: 25px;
+  min-height: 25px;
 }
 
 .main-header__logo:hover {
