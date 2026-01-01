@@ -435,6 +435,14 @@ h5 {
 h6 {
   font-size: 20px; }
 
+/* h4 style class for semantic h3 elements */
+.h4-style {
+  font-size: 23.52941px;
+  margin: 0 0 24px 0;
+  color: var(--text-primary);
+  line-height: 1.25em;
+  font-weight: 400; }
+
 /*
 Paragraphs
 */
