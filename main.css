@@ -944,7 +944,7 @@ Mobile
 /* Legacy logo image styles - now using text logo */
 
 .mobile-menu-toggle.active span:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-6px, 8px)
 }
 
 .mobile-menu-toggle.active span:nth-child(2) {
