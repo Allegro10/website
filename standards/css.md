@@ -1,6 +1,6 @@
 # CSS standard
 
-All styles live in one file, [main.css](../main.css), organised under commented headings: Base, Buttons, Header & navigation, Sections, Cards, Rows, Definition list, Pull quote, CTA, Footer, Motion, Print. Add new rules under the matching heading.
+All styles live in one file, [main.css](../main.css). Pages link it as `main.css?v=<hash>` (added by the build), so **run `npm run build` after every CSS change**, or browsers keep the old file. The file is organised under commented headings: Base, Buttons, Header & navigation, Sections, Cards, Rows, Definition list, Pull quote, CTA, Footer, Motion, Print. Add new rules under the matching heading.
 
 ## Tokens
 

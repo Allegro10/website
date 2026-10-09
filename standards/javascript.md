@@ -1,6 +1,6 @@
 # JavaScript standard
 
-The site has **one** script: [assets/site.js](../assets/site.js), loaded with `defer` from the `build:head` region on every page. Its responsibilities:
+The site has **one** script: [assets/site.js](../assets/site.js), loaded with `defer` from the `build:head` region on every page as `site.js?v=<hash>`. Run `npm run build` after editing it so the hash, and so browsers' cached copy, updates. Its responsibilities:
 
 1. Mobile navigation toggle (`.nav-toggle` / `#site-nav`)
 2. Scroll reveal (adds `.reveal` / `.is-visible` to off-screen content)

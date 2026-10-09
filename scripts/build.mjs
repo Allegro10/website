@@ -11,6 +11,7 @@
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -21,6 +22,9 @@ const DOCS = 'docs/SITE.md';
 
 const read = (p) => readFileSync(join(root, p), 'utf8');
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+// Cache-busting: link shared assets as file?v=<content hash>, so browsers never mix
+// a new page with an old cached stylesheet or script.
+const versioned = (p) => `${p}?v=${createHash('sha256').update(read(p)).digest('hex').slice(0, 8)}`;
 const stripTags = (s) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
 // Replaces {{key}} placeholders. Multi-line values are indented to match the placeholder's line.
@@ -57,6 +61,8 @@ function renderRegion(name, meta) {
     title: escapeHtml(meta.title),
     description: meta.description,
     canonical: `${site.url}/${canonicalPath}`,
+    cssHref: versioned('main.css'),
+    jsHref: versioned('assets/site.js'),
     nav: navLinks(meta.file, 'nav__link'),
     ctaLabel: escapeHtml(cta.label),
     ctaHref: cta.href,
