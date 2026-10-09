@@ -1,0 +1,11 @@
+{
+  "name": "leegroenewegen-website",
+  "private": true,
+  "description": "Static site for leegroenewegen.co.uk, served by GitHub Pages. No dependencies.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "new": "node scripts/build.mjs new",
+    "serve": "python3 -m http.server 8000"
+  }
+}

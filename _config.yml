@@ -1,0 +1,3 @@
+# GitHub Pages: keep tooling and agent docs out of the published site.
+# (Dotfiles and dot-directories such as .github, .claude and .ai are excluded by default.)
+exclude: [CLAUDE.md, AGENTS.md, README.md, docs, scripts, partials, standards, prompts, site.config.json, package.json]

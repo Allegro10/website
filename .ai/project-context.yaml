@@ -1,0 +1,61 @@
+# Project context for AI tools.
+# Facts here are verified by Lee. Agents may use them; anything not here or in cv.html needs Lee's confirmation.
+
+project:
+  name: "leegroenewegen.co.uk"
+  owner: "Lee Groenewegen"
+  purpose: "Personal site positioning Lee as a Shopify Plus technical and transformation leader"
+  repo: "https://github.com/Allegro10/website"
+  hosting: "GitHub Pages, custom domain in CNAME"
+  deploy: "Merging/pushing to master publishes the live site. Agents never push or merge."
+  stack: "Static HTML + main.css + assets/site.js; Node build in scripts/build.mjs (no dependencies)"
+
+positioning:
+  headline: "Leading enterprise Shopify Plus transformations, from strategy to launch"
+  pillars:
+    - "Transformation leadership"
+    - "Enterprise architecture"
+    - "Delivery governance"
+    - "AI in commerce delivery"
+  audiences:
+    - "Enterprise brands planning Shopify Plus migrations or transformations"
+    - "Shopify partners and agencies"
+    - "Recruiters hiring Shopify Transformation Leads / Shopify Plus Technical Leads"
+
+verified_facts:
+  current_role: "Shopify Tech Lead at fusefabric (Shopify Platinum Partner), since Jun 2024, remote"
+  current_programme: "Tech Lead on Crew Clothing's Shopify transformation, leading a team of developers"
+  programmes:
+    - client: "Crew Clothing"
+      via: "fusefabric"
+      status: current
+      notes: "Platform and scope details not yet confirmed by Lee"
+    - client: "Boden"
+      via: "fusefabric"
+      notes: "One of the largest online migrations to Shopify Plus in Europe; promoted to Tech Lead during it; theme, checkout, admin UI and account extensions; Mechanic + Admin API; BAU in parallel"
+    - client: "Mint Velvet"
+      via: "fusefabric"
+      notes: "Platform migration; frontend; Vue.js integration with Attraqt"
+  training:
+    - "Multi-day leadership programme with Colin Fenn (https://www.linkedin.com/in/cfenn/), as part of a leadership initiative at fusefabric"
+  certifications:
+    - "Shopify Liquid Storefronts for Theme Developers (Credly)"
+    - "Shopify Development Fundamentals (Credly)"
+  education: "BA (Hons) Design and Visual Communications, 2:1, University of South Wales, 1999–2002"
+  career_start: 2004
+  ai_tools: "Claude Code, GitHub Copilot, ChatGPT"
+  location: "Cheltenham, UK; remote available"
+  contact:
+    email: "info@leegroenewegen.co.uk"
+    linkedin: "https://www.linkedin.com/in/lee-groenewegen-9846a814a/"
+    credly: "https://www.credly.com/users/lee-groenewegen/badges#credly"
+
+# Changes that need Lee's explicit sign-off before implementation.
+approval_gates:
+  - "Naming any new client or programme"
+  - "Statements about availability, rates or contract work"
+  - "New claims about scale, results, team size or seniority"
+  - "Brand changes: fonts, colours, logo"
+  - "Adding analytics, tracking or any third-party script"
+
+decisions: "docs/decisions/"

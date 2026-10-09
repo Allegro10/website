@@ -2,211 +2,138 @@
 <html lang="en">
 
 <head>
-    <title>About - Lee Groenewegen</title>
     <meta charset="utf-8">
-    <meta name="description" content="Learn about Lee Groenewegen, a professional web developer specialising in Shopify and e-commerce solutions with expertise in custom themes and performance optimisation.">
-    <meta content="width=device-width,initial-scale=1" name="viewport">
-    <link href="main.css" rel="stylesheet">
-
+    <title>About - Lee Groenewegen</title>
+    <meta name="description" content="About Lee Groenewegen: twenty years in digital, from designer to developer to Shopify Tech Lead, now leading enterprise Shopify Plus programmes.">
+    <!-- build:head -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://leegroenewegen.co.uk/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About - Lee Groenewegen">
+    <meta property="og:description" content="About Lee Groenewegen: twenty years in digital, from designer to developer to Shopify Tech Lead, now leading enterprise Shopify Plus programmes.">
+    <meta property="og:url" content="https://leegroenewegen.co.uk/about.html">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Martel+Sans:wght@700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Martel+Sans:wght@700;800&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="main.css">
+    <script src="assets/site.js" defer></script>
+    <!-- /build:head -->
 </head>
 
 <body>
+    <!-- build:header -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
-
-
-    <section class="hero hero--page">
-        <div class="wrapper">
-            <header class="main-header">
-                <a class="main-header__logo" href="index.html" aria-label="Lee Groenewegen - Home">LG</a>
-                <nav class="main-header__nav" role="navigation" aria-label="Main navigation">
-                    <a class="main-nav__link" href="about.html" aria-current="page">About</a>
-                    <a class="main-nav__link" href="shopify-plus.html">Shopify Plus</a>
-                    <a class="main-nav__link" href="cv.html">CV</a>
-                    <a class="main-nav__link" href="contact.html">Contact</a>
-                </nav>
-                <button class="mobile-menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </header>
-            <nav class="mobile-menu" role="navigation" aria-label="Mobile navigation">
-                <button class="mobile-menu-close" aria-label="Close navigation menu">×</button>
-                <a class="mobile-nav__link" href="index.html">Home</a>
-                <a class="mobile-nav__link" href="about.html" aria-current="page">About</a>
-                <a class="mobile-nav__link" href="shopify-plus.html">Shopify Plus</a>
-                <a class="mobile-nav__link" href="cv.html">CV</a>
-                <a class="mobile-nav__link" href="contact.html">Contact</a>
+    <header class="site-header">
+        <div class="wrapper site-header__inner">
+            <a class="site-header__logo" href="index.html"><img src="logo.svg" alt="" width="32" height="32">Lee Groenewegen</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" class="site-nav" aria-label="Main">
+                <a class="nav__link" href="about.html" aria-current="page">About</a>
+                <a class="nav__link" href="shopify-plus.html">Shopify Plus</a>
+                <a class="nav__link" href="ai.html">AI</a>
+                <a class="nav__link" href="cv.html">Experience</a>
+                <a class="btn btn--small site-nav__cta" href="contact.html">Get in touch <span aria-hidden="true">→</span></a>
             </nav>
         </div>
-        <div class="page-cta wrapper">
-            <h1 class="page-cta__header">About Lee</h1>
-            <h2 class="page-cta__subheader">Web Developer & E-commerce Specialist</h2>
-        </div>
-    </section>
+    </header>
+    <!-- /build:header -->
 
     <main id="main-content">
-        <section class="cv-content">
+        <section class="page-hero page-hero--compact">
             <div class="wrapper">
-                <div class="cv-grid">
-                    <div class="cv-sidebar">
-                        <div class="cv-section">
-                        <h3>Certifications</h3>
-                        <div class="certification-badges">
-                            <div class="certification-badge">
-                                <h4>Liquid Storefronts for Theme Developers</h4>
-                                <p class="cert-provider">Shopify</p>
-                                <p class="cert-expiry">Expires: Nov 22, 2026</p>
-                            </div>
-                            <div class="certification-badge">
-                                <h4>Shopify Development Fundamentals</h4>
-                                <p class="cert-provider">Shopify</p>
-                                <p class="cert-expiry">Expires: Mar 23, 2027</p>
-                            </div>
-                        </div>
-                        <p style="margin-top: 16px;"><a href="https://www.credly.com/users/lee-groenewegen/badges#credly" target="_blank">View verified badges on Credly</a></p>
-                    </div>
-                    
-                    <div class="cv-section">
-                        <h3>Core Skills</h3>
-                        <div class="skills-compact">
-                            <div class="skill-tag">Shopify Plus</div>
-                            <div class="skill-tag">Liquid</div>
-                            <div class="skill-tag">JavaScript</div>
-                            <div class="skill-tag">Vue.js</div>
-                            <div class="skill-tag">Theme Development</div>
-                            <div class="skill-tag">Checkout Extensions</div>
-                            <div class="skill-tag">Admin UI Extensions</div>
-                            <div class="skill-tag">Custom Events</div>
-                            <div class="skill-tag">API Integration</div>
-                            <div class="skill-tag">Performance</div>
-                            <div class="skill-tag">Migration</div>
-                        </div>
-                    </div>
-                </div>
+                <p class="label">About</p>
+                <h1>Twenty years in digital. Now leading the programmes, not just building them.</h1>
+                <p class="lead">I started as a designer, became a developer, specialised in Shopify, and today lead technical delivery on enterprise Shopify Plus programmes at fusefabric, a Shopify Platinum Partner.</p>
+            </div>
+        </section>
 
-                <div class="cv-main">
-                    <div class="cv-section">
-                        <h3>About</h3>
-                        <p>I'm Lee Groenewegen, a certified Shopify developer with extensive specialized experience in e-commerce development. Currently serving as Shopify Technical Lead at fusefabric (Shopify Platinum Partner), I bring deep expertise in Shopify theme development, platform migrations, and complex e-commerce implementations.</p>
-                    </div>
-                    
-                    <div class="cv-section">
-                        <h3>Shopify Expertise</h3>
-                        <div class="expertise-grid">
-                            <div class="expertise-column">
-                                <h4>Theme Development</h4>
-                                <ul>
-                                    <li>Custom Liquid development</li>
-                                    <li>Responsive design</li>
-                                    <li>Performance optimisation</li>
-                                    <li>Mobile-first approach</li>
-                                </ul>
-                            </div>
-                            <div class="expertise-column">
-                                <h4>Platform & Extensions</h4>
-                                <ul>
-                                    <li>Shopify Plus implementations</li>
-                                    <li>Checkout Extensions</li>
-                                    <li>Admin UI Extensions</li>
-                                    <li>Account Extensions</li>
-                                    <li>Custom Events</li>
-                                    <li>API & webhooks</li>
-                                    <li>Platform migrations</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="cv-section">
-                        <h3>Agency Experience</h3>
-                        <ul class="agency-list">
-                            <li><strong>fusefabric</strong> - Shopify Platinum Partner - Technical Lead</li>
-                            <li><strong>Velstar</strong> - Shopify Plus Partner - Contract Developer</li>
-                            <li><strong>Blue Horizons</strong> - Shopify Specialist</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="cv-section">
-                        <h3>Value Proposition</h3>
-                        <ul class="experience-duties">
-                            <li><strong>Proven Track Record:</strong> Extensive Shopify development experience</li>
-                            <li><strong>Certified Expertise:</strong> Current Shopify skill badge certifications</li>
-                            <li><strong>Agency Leadership:</strong> Technical Lead at Platinum Partner level</li>
-                            <li><strong>Extension Specialist:</strong> Checkout & Admin UI Extensions, Custom Events</li>
-                            <li><strong>Enterprise Focus:</strong> Complex implementations for major brands</li>
-                        </ul>
-                        
-                        <p style="margin-top: 20px;">Whether launching new stores, migrating platforms, or building advanced Shopify extensions, I deliver solutions that drive measurable business growth.</p>
-                    </div>
+        <section class="section">
+            <div class="wrapper section__grid">
+                <div class="section__head">
+                    <p class="label">Background</p>
+                    <h2>From design to delivery leadership</h2>
+                </div>
+                <div class="section__body prose">
+                    <p>My career began in design: a degree in Design and Visual Communications, then agency work shaping brands and campaigns. That grew into thirteen years at Blue Horizons designing and building websites and e-commerce stores, and from there into specialist Shopify work with agencies including Velstar and fusefabric.</p>
+                    <p>At fusefabric I moved from senior developer to Tech Lead during the Boden programme, one of the largest online migrations to Shopify Plus in Europe. Leading that team changed my focus. The work that matters most now is architecture, delivery and people: getting stakeholders, partners and developers aligned, and building systems that large teams can run safely across markets. Today I'm Tech Lead on Crew Clothing's Shopify transformation, leading a team of developers.</p>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="section section--tint">
+            <div class="wrapper section__grid">
+                <div class="section__head">
+                    <p class="label">Focus</p>
+                    <h2>What I bring to a programme</h2>
+                </div>
+                <div class="section__body prose">
+                    <ul>
+                        <li><strong>Technical leadership.</strong> Leading development teams, setting standards, reviewing work and mentoring developers on Shopify Plus.</li>
+                        <li><strong>Architecture.</strong> Multi-market store structures, shared themes, integrations, and checkout, admin and account extensions.</li>
+                        <li><strong>Delivery governance.</strong> Git workflows, CI/CD, environments and release practices that keep shared code and store content apart.</li>
+                        <li><strong>Stakeholder translation.</strong> Turning commercial and operational requirements into plans that technical teams and partners can deliver.</li>
+                        <li><strong>AI adoption.</strong> Practical, controlled use of AI agents in Shopify delivery. <a href="ai.html">Read more</a>.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="wrapper section__grid">
+                <div class="section__head">
+                    <p class="label">Credentials</p>
+                    <h2>Certifications &amp; training</h2>
+                </div>
+                <div class="section__body">
+                    <dl class="facts">
+                        <div><dt>Leadership</dt><dd>Multi-day leadership programme with <a href="https://www.linkedin.com/in/cfenn/" rel="noopener">Colin Fenn</a>, as part of a leadership initiative at fusefabric</dd></div>
+                        <div><dt>Shopify</dt><dd>Liquid Storefronts for Theme Developers (verified skill badge)</dd></div>
+                        <div><dt>Shopify</dt><dd>Shopify Development Fundamentals (verified skill badge)</dd></div>
+                        <div><dt>Education</dt><dd>BA (Hons) Design and Visual Communications, 2:1, University of South Wales</dd></div>
+                    </dl>
+                    <p class="after-block"><a href="https://www.credly.com/users/lee-groenewegen/badges#credly" rel="noopener">View verified badges on Credly →</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="wrapper">
+                <h2>Let's talk about your Shopify Plus programme.</h2>
+                <div class="btn-row">
+                    <a class="btn" href="contact.html">Get in touch <span aria-hidden="true">→</span></a>
+                    <a class="btn btn--ghost" href="cv.html">Full experience</a>
+                </div>
+            </div>
         </section>
     </main>
 
+    <!-- build:footer -->
     <footer class="site-footer">
-        <div class="wrapper">
-            <nav class="site-footer__bottom">
-                <p class="site-footer__copyright">© 2025 Lee Groenewegen. All Rights Reserved.</p>
+        <div class="wrapper site-footer__grid">
+            <div>
+                <p class="site-footer__name">Lee Groenewegen</p>
+                <p class="site-footer__tagline">Shopify Plus transformation, enterprise architecture and AI in commerce delivery.</p>
+            </div>
+            <nav class="site-footer__nav" aria-label="Footer">
+                <a class="nav__link" href="about.html" aria-current="page">About</a>
+                <a class="nav__link" href="shopify-plus.html">Shopify Plus</a>
+                <a class="nav__link" href="ai.html">AI</a>
+                <a class="nav__link" href="cv.html">Experience</a>
+                <a class="nav__link" href="contact.html">Get in touch</a>
             </nav>
+            <div class="site-footer__contact">
+                <a href="mailto:info@leegroenewegen.co.uk">info@leegroenewegen.co.uk</a>
+                <a href="https://www.linkedin.com/in/lee-groenewegen-9846a814a/" rel="noopener">LinkedIn</a>
+                <span>Cheltenham, UK</span>
+            </div>
+        </div>
+        <div class="wrapper site-footer__bottom">
+            <p>© 2026 Lee Groenewegen</p>
         </div>
     </footer>
-
-    <script>
-        // Mobile menu toggle
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileToggle = document.querySelector('.mobile-menu-toggle');
-            const mobileMenu = document.querySelector('.mobile-menu');
-            const mobileClose = document.querySelector('.mobile-menu-close');
-            
-            function openMenu() {
-                mobileToggle.classList.add('active');
-                mobileMenu.classList.add('active');
-                document.body.classList.add('menu-open');
-            }
-            
-            function closeMenu() {
-                mobileToggle.classList.remove('active');
-                mobileMenu.classList.remove('active');
-                document.body.classList.remove('menu-open');
-            }
-            
-            mobileToggle.addEventListener('click', function() {
-                if (mobileMenu.classList.contains('active')) {
-                    closeMenu();
-                } else {
-                    openMenu();
-                }
-            });
-            
-            // Close menu when clicking close button
-            if (mobileClose) {
-                mobileClose.addEventListener('click', closeMenu);
-            }
-            
-            // Close menu when clicking on a link
-            const mobileLinks = document.querySelectorAll('.mobile-nav__link');
-            mobileLinks.forEach(link => {
-                link.addEventListener('click', closeMenu);
-            });
-            
-            // Close menu when clicking outside
-            document.addEventListener('click', function(e) {
-                if (mobileMenu.classList.contains('active') && 
-                    !mobileMenu.contains(e.target) && 
-                    !mobileToggle.contains(e.target)) {
-                    closeMenu();
-                }
-            });
-
-        });
-    </script>
-
+    <!-- /build:footer -->
 </body>
 
 </html>
