@@ -2,14 +2,14 @@
 
 # Site map
 
-6 pages. Navigation order: About → Shopify Plus → AI → Experience, then the "Get in touch" button (contact.html).
+6 pages. Navigation order: About → Shopify Plus → AI → Experience, then the "Contact" button (contact.html).
 
 | File | Heading (h1) | Nav label | Meta description |
 |---|---|---|---|
 | [index.html](../index.html) | Leading enterprise Shopify Plus transformations, from strategy to launch. | — | Lee Groenewegen leads enterprise Shopify Plus transformations: platform migrations, multi-market architecture, delivery governance and the safe adoption of AI in commerce teams. |
 | [about.html](../about.html) | Twenty years in digital. Now leading the programmes, not just building them. | About | About Lee Groenewegen: twenty years in digital, from designer to developer to Shopify Tech Lead, now leading enterprise Shopify Plus programmes. |
 | [ai.html](../ai.html) | AI in enterprise commerce, with the structure to trust it. | AI | How Lee Groenewegen helps enterprise Shopify teams adopt AI agents with control: agent-ready structure, governance for shared themes, and AI-assisted delivery. |
-| [contact.html](../contact.html) | Let's talk. | — | Get in touch with Lee Groenewegen about Shopify Plus transformation, enterprise architecture or AI in commerce delivery. |
+| [contact.html](../contact.html) | Say hello. | — | Contact details for Lee Groenewegen: email, LinkedIn and location. |
 | [cv.html](../cv.html) | Lee Groenewegen | Experience | Experience and CV of Lee Groenewegen, Shopify Tech Lead at fusefabric, leading enterprise Shopify programmes including Crew Clothing, Boden and Mint Velvet. |
 | [shopify-plus.html](../shopify-plus.html) | Transformation and architecture for enterprise Shopify Plus. | Shopify Plus | Shopify Plus transformation leadership: re-platforming, multi-market architecture, delivery governance, integrations and operations automation for enterprise brands. |
 
@@ -21,25 +21,25 @@
 - Enterprise transformations, led end to end.
 - Structure first, so teams can move fast.
 - Notes on Shopify, AI and enterprise teams.
-- Planning a Shopify Plus migration or transformation?
+- Always happy to compare notes on Shopify, enterprise delivery and AI.
 
 ### about.html — About - Lee Groenewegen
 
 - From design to delivery leadership
 - What I bring to a programme
 - Certifications &amp; training
-- Let's talk about your Shopify Plus programme.
+- Want to know more?
 
 ### ai.html — AI in Enterprise Commerce - Lee Groenewegen
 
 - Structure matters more, not less
-- Where I help
+- Where I focus
 - What teams should decide first
-- Thinking about AI across your Shopify estate?
+- Thinking about AI and Shopify too?
 
 ### contact.html — Contact - Lee Groenewegen
 
-- Get in touch
+- Where to find me
 
 ### cv.html — Experience - Lee Groenewegen
 
@@ -50,9 +50,9 @@
 ### shopify-plus.html — Shopify Plus Transformation & Architecture - Lee Groenewegen
 
 - What I lead
-- Ways to work together
+- How I work on a programme
 - Strategic, but pragmatic
-- Planning a migration or scaling across markets?
+- Always happy to compare notes on enterprise Shopify.
 
 ## Redirect stubs
 

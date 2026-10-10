@@ -22,6 +22,15 @@ Hands-on technical skills are supporting evidence only (for example, on the Expe
 - No emoji. No exclamation marks.
 - Headings state a point ("Structure first, so teams can move fast"), not a category ("Our Services").
 
+## Calls to action
+
+Lee is employed full-time at fusefabric, so the site must **never read as selling services**.
+
+- Calls to action invite connection: "Connect on LinkedIn", "Contact", "View experience", "compare notes". The header button is "Contact".
+- Don't use: "work with me", "hire", "services", "engagements", "packages", "get a quote", "start your project", "let's talk about your programme", or questions aimed at buyers ("Planning a migration?").
+- Describe how Lee works in his role ("How I work on a programme"), not offerings for sale.
+- Closing `.cta` sections lead with LinkedIn, with Contact as the secondary button.
+
 ## Facts policy
 
 - **Never invent** metrics, percentages, client names, testimonials, dates, team sizes or outcomes.
@@ -32,7 +41,7 @@ Hands-on technical skills are supporting evidence only (for example, on the Expe
 ## Needs Lee's explicit approval
 
 - Naming a new client or programme (client confidentiality)
-- Any statement about availability, rates or contract work (Lee is employed at fusefabric)
+- Any statement about availability, rates or contract work, or any sales-style call to action (Lee is employed at fusefabric)
 - New claims about scale, results or seniority
 - Removing an existing client, role or credential
 

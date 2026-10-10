@@ -13,7 +13,7 @@ Analyse the change for:
 
 1. Correctness – Does it do what the PR describes? Were build regions (<!-- build:* -->) edited by hand rather than via partials/ or site.config.json? Is docs/SITE.md out of sync (CI's npm run check will catch this)?
 
-2. Content accuracy – Flag any new factual claim (metrics, clients, dates, team sizes, outcomes) not already in cv.html or .ai/project-context.yaml. Flag statements about availability, rates or contracts, and newly named clients; these need the owner's approval. Flag copy that positions the owner as a developer for hire rather than a Shopify Plus technical/transformation leader. Flag hype words, emoji and American spelling.
+2. Content accuracy – Flag any new factual claim (metrics, clients, dates, team sizes, outcomes) not already in cv.html or .ai/project-context.yaml. Flag statements about availability, rates or contracts, sales-style calls to action (the owner is employed, so CTAs must invite connection, not sell services), and newly named clients; these need the owner's approval. Flag copy that positions the owner as a developer for hire rather than a Shopify Plus technical/transformation leader. Flag hype words, emoji and American spelling.
 
 3. Accessibility – One h1 per page, no skipped heading levels, alt text and dimensions on images, visible focus, sufficient contrast, and nothing that only works with a mouse. Content must remain visible with JavaScript off and with prefers-reduced-motion.
 
