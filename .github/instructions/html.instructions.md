@@ -13,3 +13,4 @@ The authoritative rules are in [standards/html.md](../../standards/html.md) and 
 - One `h1`. No skipped heading levels. Labels (`p.label`) are plain words, with no numbers or symbols.
 - No inline `style` or `<script>`. External links get `rel="noopener"`.
 - Copy: British English, no hype words, no emoji. Never invent facts; list new claims for Lee.
+- Calls to action invite connection (LinkedIn, Contact), never sell services. Lee is employed. See the CTA rules in standards/content.md.

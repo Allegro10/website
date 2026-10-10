@@ -18,7 +18,7 @@ Per-file-type rules auto-attach from [.github/instructions/](instructions/). The
 
 - **Never edit inside `<!-- build:* -->` regions.** Edit `partials/` or `site.config.json`, then run `npm run build`.
 - **Don't invent facts** (metrics, clients, dates, testimonials). List new claims for Lee to confirm.
-- **Positioning:** Shopify Plus technical and transformation leader, not a developer for hire.
+- **Positioning:** Shopify Plus technical and transformation leader, not a developer for hire. Lee is employed, so calls to action invite connection and never sell services.
 - Reuse existing components and CSS tokens. Brand red (`--red`) is for accents only.
 - Complete what's asked; mention related improvements without making them.
 

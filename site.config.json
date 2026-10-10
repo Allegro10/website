@@ -13,7 +13,7 @@
     { "label": "AI", "href": "ai.html" },
     { "label": "Experience", "href": "cv.html" }
   ],
-  "cta": { "label": "Get in touch", "href": "contact.html" },
+  "cta": { "label": "Contact", "href": "contact.html" },
   "redirects": {
     "support.html": "shopify-plus.html",
     "portfolio.html": "cv.html"

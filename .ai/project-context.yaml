@@ -53,7 +53,7 @@ verified_facts:
 # Changes that need Lee's explicit sign-off before implementation.
 approval_gates:
   - "Naming any new client or programme"
-  - "Statements about availability, rates or contract work"
+  - "Statements about availability, rates or contract work, or sales-style calls to action (Lee is employed at fusefabric)"
   - "New claims about scale, results, team size or seniority"
   - "Brand changes: fonts, colours, logo"
   - "Adding analytics, tracking or any third-party script"
